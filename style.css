@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+.header{
+    background-color: hsl(219, 30%, 18%);
+    height: 140vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* NavBar */
+
+nav{
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NavItems */
+
+.nav-items{
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.8);   
+}
+
+.nav-item{
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem;
+    margin-right: 2rem;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+}
+
+/* Header Content */
+
+.header-content{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    color: white;
+}
+
+.header-content img{
+    width: max-content;
+}
+
+.header-content h2{
+    margin-top: 2rem;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-content p{
+    font-size: 20px;
+    text-align: center;
+    margin: 2rem auto 1rem auto;
+}
+
+.header-content button{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 80%);
+    padding: 1rem 6rem;
+}
+
+.header-content button:hover{
+    background: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+/* Curvy Image */
+
+.curvy-img{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
