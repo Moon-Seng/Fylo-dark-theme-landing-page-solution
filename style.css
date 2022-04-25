@@ -401,3 +401,225 @@ nav{
     border: 1px solid hsl(176, 68%, 64%);
     cursor: pointer;
 }
+
+@media screen and (max-width: 470px) {
+
+    /* NavBar */
+    nav{
+        padding: 2rem;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        margin: 0 0 0 1rem;
+    }
+
+    .main-body{
+        padding-bottom: 20rem;
+    }
+
+    /* Header */
+
+    .header{
+        height: 106vh;
+    }
+
+    .header-content{
+        padding: 2rem;
+    }
+    .header-content img{
+        width: 100%;
+    }
+
+    .header-content h2{
+        font-size: 24px;
+    }
+
+    .header-content p{
+        margin-top: 2rem;
+        font-size: 15px;
+    }
+
+    .curvy-img{
+        width: 100%;
+    }
+
+    /* Feature */
+    .feature .box{
+        padding-top: 8rem;
+        height: fit-content;
+    }
+
+    /* How we work */
+
+    .productive-img img{
+        width: 100%;
+    }
+
+    .productive-text{
+        padding: 0 1rem;
+    }
+    
+    .productive-text h2{
+        margin-top: 4rem;
+        font-size: 18px;
+    }
+
+    .productive-text p , .link a{
+        font-size: 14px;
+    }
+
+    /* FeedBack */
+    .feedback{
+        display: block;
+    }
+
+    .quotes{
+        left: 30px;
+    }
+
+    .feedback-card{
+        padding: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .feedback-card p{
+        font-size: 13px;
+        margin-top: 2rem;
+    }
+
+    .feedbacker-detail{
+        margin-left: 1rem;
+    }
+
+    .feedbacker-detail p{
+        margin: 0;
+    }
+
+    /* Get Start */
+
+    .get-start-card{
+        margin: 10rem 1rem 0 1rem;
+    }
+
+    .get-start-card h2{
+        font-size: 25px;
+    }
+
+    .get-start-card p{
+        padding: 1rem;
+        font-size: 15px;
+    }
+
+    .submit-box{
+        display: block;
+    }
+
+    .submit-box .email-input{
+        width: 100%;
+    }
+    
+    .email-validate p{
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .submit-box .submit-input{
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer{
+        padding-top: 18rem;
+    }
+
+    .footer-logo img{
+        width: auto;
+    }
+
+    .footer-content{
+        display: block;
+    }
+
+    .location i , .phone i , .mail i{
+        margin: 1rem;
+    }
+
+    .phone{
+        margin-bottom: 0;
+    }
+
+    .mail , .list-nav{
+        margin-bottom: 3rem;
+    }
+
+    .social{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    /* NavBar */
+    nav{
+        padding: 3rem;
+    }
+
+    /* Header  */
+    .header{
+        height: 100vh;
+    }
+
+    .header-content h2{
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .header-content p{
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .curvy-img {
+        width: 100%;
+    }
+
+    /* Feature */
+    .feature .box{
+        height: fit-content;
+        padding-top: 4rem;
+    }
+
+    .productive-text h2{
+        font-size: 30px;
+    }
+
+    /* FeedBack */
+    .feedback{
+        flex-wrap: wrap;
+    }
+
+    /* Get Start */
+
+    .get-start-card{
+        margin: 13rem 1rem 0 1rem;
+    }
+
+    /* Footer */
+
+    .footer-content{
+        flex-wrap: wrap;
+    }
+
+    .location i , .phone i , .mail i{
+        margin: 1rem;
+    }
+
+    .phone{
+        margin: 0;
+    }
+}
