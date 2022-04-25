@@ -11,6 +11,10 @@ font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
 }
 
+.hidden{
+    display: none;
+}
+
 /* Header */
 
 .header{
@@ -40,6 +44,7 @@ nav{
     font-family: 'Raleway', sans-serif;
     margin: 1rem;
     margin-right: 2rem;
+    font-size: 16px;
 }
 
 .nav-item:hover{
@@ -108,6 +113,7 @@ nav{
 .main-body{
     height: fit-content;
     background-color: hsl(218, 28%, 13%);;
+    padding-bottom: 22rem;
 }
 
 .box{
@@ -148,6 +154,7 @@ nav{
 
 .how-we-work .box{
     height: 80vh;
+    flex-wrap: wrap;
 }
 
 .productive-img img{
@@ -193,4 +200,204 @@ nav{
 
 .link:hover a{
     color: white !important;
+}
+
+/* FeedBack */
+
+.feedback{
+    position: relative;
+    display: flex;
+    color: white;
+    margin-top: 8rem;
+}
+
+.quotes{
+    position: absolute;
+    top: -22px;
+    z-index: 5;
+}
+
+.send-up{
+    z-index: 20;
+}
+
+.feedback-card{
+    background-color: hsl(217, 28%, 15%);
+    margin: 1rem ;
+    padding: 1rem 2rem;
+    box-shadow: 10px 10px 0px rgba(255, 255, 255, 0.01);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.feedback-card p{
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 3rem;
+}
+
+.feedbacker{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.feedbacker-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.feedbacker-detail{
+    margin-left: 2rem;
+}
+
+.feedbacker-detail h4{
+    font-weight: bold;
+}
+
+.feedbacker-detail p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: bold;
+}
+
+/* Get Start */
+
+.get-start{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.get-start-card{
+    position: absolute;
+    margin-top: 13rem;
+    max-width: 800px;
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    text-align: center;
+}
+
+.get-start-card h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.get-start-card p{
+    padding: 1rem 3rem;
+}
+
+.submit-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-validate p{
+    padding: 0;
+    margin: 0;
+    margin-left: -10rem;
+    color: hsl(0, 100%, 63%);
+}
+
+.submit-box .email-input{
+    padding: 1rem 2rem;
+    width: 400px;
+    margin-right: 2rem;
+}
+
+.submit-box .submit-input{
+    background: linear-gradient(90deg, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 80%);
+    padding: 1rem 2rem;
+    color: white;
+    width: 190px;
+    height: 52px;
+}
+
+/* Footer */
+
+
+.footer{
+    padding-top: 12rem;
+    padding-bottom: 4rem;
+    background-color: hsl(216, 53%, 9%);
+    color: white;
+}
+
+.footer-logo{
+    margin: 2rem 3rem;
+}
+
+.footer-logo img{
+    width: 8rem;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.location{
+    display: flex;
+}
+
+.location i{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.phone , .mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.phone i, .mail i{
+    margin-right: 2rem;
+}
+
+.phone p , .mail p{
+    margin-bottom: 0;
+}
+
+.list-nav ul{
+    list-style-type: none;
+}
+
+.list-nav ul li{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.list-nav ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.social{
+    display: flex;
+}
+
+.border-circle{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.border-circle:hover{
+    color: hsl(176, 68%, 64%);
+    border: 1px solid hsl(176, 68%, 64%);
+    cursor: pointer;
 }
